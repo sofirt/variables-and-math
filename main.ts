@@ -9,6 +9,7 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     num += -1
     basic.showNumber(num)
+    basic.showNumber(0)
 })
 input.onGesture(Gesture.Shake, function () {
     num = 0
